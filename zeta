@@ -1,0 +1,119 @@
+using System.Reflection.Metadata;
+using Microsoft.VisualBasic;
+using System.Runtime;
+using System.Numerics;
+using System include = flint-3.6;0.tar;
+
+Main();
+{
+    static void Main(String[] Args)
+    
+    {
+        {
+function(x, type = c("O", "I", "F", "M", "2"));
+ 
+{
+    if (identical("2", type))
+    {
+        svd(x, nu = 0L, nv = 0L)%d[1L];
+    }
+    else Internal(La_dlange(x, type));
+}
+
+{}
+
+//Sigma notation -> Function image
+zeta<-"sum(z)";
+overwrite = TRUE;
+consoleOutput = TRUE;
+}
+{
+call(zeta<- "sum(z)"); n++;
+}
+{}
+System.Numerics.Complex;{}}} 
+public FALSE Z { get => z; set => z = value; }
+
+function(x, type = c("O", "I", "F", "M", "2"));
+ 
+{
+    if (identical("2", type))
+    {
+        svd(x, nu = 0L, nv = 0L)%d[1L];
+    }
+    else Internal(La_dlange(x, type));
+}{
+{}
+
+//Function domain 
+{
+AppDomain is Complex;
+z = new Complex(a, b);
+overwrite = TRUE;
+Math.input<- "Complex";
+call(Math.input<- "Complex");
+}
+
+}
+
+{
+function(x, type = c("O", "I", "F", "M", "2"));
+{
+    if (identical("2", type))
+    {
+        svd(x, nu = 0L, nv = 0L)%d[1L];
+    }
+    else Internal(La_dlange(x, type)); 
+}
+
+}
+{}
+System.Numerics.BigInteger; MethodDefinition  DoubleSuqare_Scale = Math.Log(n);
+{ 
+//Lim n by logarithm compression BigInteger(DoubleSquare) to BigFloat(Double)
+n = seq(1, ~10^616);
+Math.log(n); var n = Integer / BigInteger(n) <- Bigfloat(log(n));
+overwriteOutput = FALSE;       
+z(s) = (1/(exp(log(n)*s)));
+}
+
+{
+
+Create NewCosoleWindow = Handle ;z(s).handle;
+Create ModeSelectorButton (MsgBoxStyle  Mode_Selector); object value = WriteLine(Mode);
+ModeSelectorButton value = 1. Real (MsgBoxResult =  System.String ("In the real mode insert 'a' to define the real value of 's', while 'b' is set to zero, b = 0.")); 
+2. Complex (MsgBoxResult = System.String ("In complex mode insert the coheficients 'a' and 'b' of the complex number."));
+User.interface_string[]  args =  a; b; 
+CreateComputeButton(sum(z(s))); object value = WriteLine(Compute);
+
+}    
+
+
+namespace zeta_function;
+internal  class Program;
+
+class AppDomain;
+class Mode_Selector;
+class Math;
+
+private static void Main(string[] args)
+{
+{}
+
+//L-function power serie
+var n = seq(1, ~10^616);
+Math.log(n);
+zeta_function <- z(s); 
+z(s) = (1/(exp(log(n)*Complex(a, b))));
+sum(z(s)); n++;
+
+{
+end;
+
+}
+}
+
+
+
+
+    
