@@ -1,0 +1,108 @@
+using System;
+using System.Numerics;
+
+namespace Zeta_Function
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Zeta Function");
+            Console.WriteLine("================");
+
+            Console.WriteLine("Selecione o modo:");
+            Console.WriteLine("1 - Real");
+            Console.WriteLine("2 - Complexo");
+
+            string? mode = Console.ReadLine();
+
+            if (mode == "1")
+            {
+                RealMode();
+            }
+            else if (mode == "2")
+            {
+                ComplexMode();
+            }
+            else
+            {
+                Console.WriteLine("Modo inválido.");
+            }
+        }
+
+        private static void RealMode()
+        {
+            Console.Write("Digite o valor de s: ");
+
+            if (!double.TryParse(Console.ReadLine(), out double s))
+            {
+                Console.WriteLine("Valor inválido.");
+                return;
+            }
+
+            double sum = ZetaReal(s);
+
+            Console.WriteLine();
+            Console.WriteLine($"ζ({s}) = {sum}");
+        }
+
+        private static void ComplexMode()
+        {
+            Console.Write("Digite o valor real de s (a): ");
+
+            if (!double.TryParse(Console.ReadLine(), out double a))
+            {
+                Console.WriteLine("Valor inválido.");
+                return;
+            }
+
+            Console.Write("Digite o valor imaginário de s (b): ");
+
+            if (!double.TryParse(Console.ReadLine(), out double b))
+            {
+                Console.WriteLine("Valor inválido.");
+                return;
+            }
+
+            Complex s = new Complex(a, b);
+
+            Complex sum = ZetaComplex(s);
+
+            Console.WriteLine();
+            Console.WriteLine($"s = {s}");
+            Console.WriteLine($"ζ(s) = {sum}");
+        }
+
+        private static double ZetaReal(double s)
+        {
+            double sum = 0.0;
+
+            // Exemplo inicial.
+            // Depois podemos substituir por BigInteger/BigFloat
+            // para trabalhar com números muito maiores.
+            for (int n = 1; n <= 100000; n++)
+            {
+                sum += 1.0 / Math.Pow(n, s);
+            }
+
+            return sum;
+        }
+
+        private static Complex ZetaComplex(Complex s)
+        {
+            Complex sum = Complex.Zero;
+
+            for (int n = 1; n <= 100000; n++)
+            {
+                Complex term =
+                    Complex.Exp(
+                        -s * Math.Log(n)
+                    );
+
+                sum += term;
+            }
+
+            return sum;
+        }
+    }
+}
