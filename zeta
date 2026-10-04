@@ -68,7 +68,7 @@ function(x, type = c("O", "I", "F", "M", "2"));
 
 }
 {}
-System.Numerics.BigInteger; MethodDefinition  DoubleSuqare_Scale = Math.Log(n);
+System.Numerics.BigInteger; MethodDefinition  DoubleSquare_Scale scale= Math.Log(n);
 { 
 //Lim n by logarithm compression BigInteger(DoubleSquare) to BigFloat(Double)
 n = seq(1, ~10^616);
