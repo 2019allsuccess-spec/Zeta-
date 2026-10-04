@@ -1,4 +1,6 @@
 using System;
+using System.ComponentModel;
+using System.Runtime;
 using System.Numerics;
 
 namespace Zeta_Function
@@ -72,17 +74,18 @@ namespace Zeta_Function
             Console.WriteLine($"s = {s}");
             Console.WriteLine($"ζ(s) = {sum}");
         }
-
+                      
         private static double ZetaReal(double s)
         {
             double sum = 0.0;
 
-            // Exemplo inicial.
-            // Depois podemos substituir por BigInteger/BigFloat
-            // para trabalhar com números muito maiores.
-            for (int n = 1; n <= 100000; n++)
+            BigInteger limit = BigInteger.Pow(10, 616);
+
+            for (BigInteger n = 1; n <= limit; n++)
             {
-                sum += 1.0 / Math.Pow(n, s);
+                double logN = BigInteger.Log(n);
+
+                sum += Math.Exp(-s * logN);
             }
 
             return sum;
@@ -92,11 +95,13 @@ namespace Zeta_Function
         {
             Complex sum = Complex.Zero;
 
-            for (int n = 1; n <= 100000; n++)
+            BigInteger limit = BigInteger.Pow(10, 616);
+
+            for (BigInteger n = 1; n <= limit; n++)
             {
                 Complex term =
                     Complex.Exp(
-                        -s * Math.Log(n)
+                        -s * BigInteger.Log(n)
                     );
 
                 sum += term;
