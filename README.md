@@ -1,2 +1,5 @@
-# Zeta-
-Zeta function calculator
+# Zeta
+Zeta-function-calculator:
+________________________________________________________________________________________________________________________________________________
+A zeta function calculator in C# and R languages. Using the logarithm scale of the ring of intergers (n) to reach the infinite sums compressed in a linear progression (DoubleSquare) through the exponential invariant of the Euler Xi function.
+________________________________________________________________________________________________________________________________________________
