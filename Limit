@@ -79,7 +79,7 @@ namespace Zeta_Function
         {
             double sum = 0.0;
 
-            BigInteger limit = BigInteger.Pow(10, 616);
+            BigInteger limit = BigInteger.Pow(10, 154);
 
             for (BigInteger n = 1; n <= limit; n++)
             {
