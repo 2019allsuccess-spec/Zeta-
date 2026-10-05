@@ -20,7 +20,7 @@ The Riemann zeta function is a Drichlet serie of the group of L-Function wich li
 <p>However, the measure and simetry of the sphere is intringly missunderstood at the first sought. Our mathematical interpretation for that straight line is the logarithm progression, or logarithm scale, that compress the projection of all sets of numbers until infinity and allows all kind of computations.<p/>  
 
 
-*The complex analyses through the Riemann sphere
+* The complex analyses through the Riemann sphere
 
 <>pBefore a view of the complex analyses of the zeta function in the Riemann projective sphere, is of some importance to understanding the complex powers. The first studies of the complex powers was developed by scholars as Euler, who discover the natural constatnt (e), and with others contributors coined the natural logarithm. And in this context, Euler published his Xi function, that states: e<sup> Xi </sup> = cos(X)+i*sin(X).</p>
 
