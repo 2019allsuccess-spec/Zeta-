@@ -22,7 +22,7 @@ The Riemann zeta function is a Drichlet serie of the group of L-Function wich li
 
 * The complex analyses through the Riemann sphere
 
-<>pBefore a view of the complex analyses of the zeta function in the Riemann projective sphere, is of some importance to understanding the complex powers. The first studies of the complex powers was developed by scholars as Euler, who discover the natural constatnt (e), and with others contributors coined the natural logarithm. And in this context, Euler published his Xi function, that states: e<sup> Xi </sup> = cos(X)+i*sin(X).</p>
+<p>Before a view of the complex analyses of the zeta function in the Riemann projective sphere, is of some importance to understanding the complex powers. The first studies of the complex powers was developed by scholars as Euler, who discover the natural constatnt (e), and with others contributors coined the natural logarithm. And in this context, Euler published his Xi function, that states: e<sup> Xi </sup> = cos(X)+i*sin(X).</p>
 
 <p>However, alhough this formula being incomplete (do not work with algebraic complex numbers like Z = X + Yi; or z = Re + Im), is the basic lesson for the expanded Xi function and its integral invariant (presented in this paper and in the complex analyses). Bellow, follow the algebraic Xi expansion:</p>
 
