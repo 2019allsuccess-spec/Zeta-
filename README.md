@@ -43,6 +43,56 @@ e<sup> Z </sup> = e<sup> - s * ln(n) </sup>
 </p>
 
 
+At this point, to introduce the complex analyses through the Riemann sphere, attempting to avoid mistakes and computation errors on the behaviour of the zeta function, we have to give attention paticularly to the Riemann hyphotesis. This way, Riemann asserts that the roots (zeroes) of the zeta function are liying in a certain line, called critical line - which is a sucession of critical points defined by the function argument (s) that implies (in hyphotesis) in z(s)=0.
+
+However, the definition of these critical points is precisely given by:
+
+
+
+<img width="164" height="45" alt="Captura de tela 2026-10-05 181417" src="https://github.com/user-attachments/assets/00e0ad8e-7ea1-4928-8dd4-f1d048716bdb" />
+
+
+
+Riemann has conjectured that the possible function roots, or critical points (s), have real part equal to 1/2, and this make much more sense when computing Re(s)>1, because the function converges, which implies in z(s)->1 (the function tends to 1). Now, lets visualize the behaviour of the function at the superior limit (n->Inf), taking the reference of the infinit limits definition  1/Inf = 0. Also by opposition: 1/0 = Inf (division by zero was introduce by Riemann in his complex analyses, now we have the definition of the North (1/0 = Inf) and the South (1/Inf = 0) of the Riemann sphere. Bellow, we can see more clearly in practice the domain of the zeta function illustrated by the ninth term, and the argument settled in the subspace of the complex plane (half plane - Riemann hypothesis):
+
+
+
+<img width="202" height="67" alt="Captura de tela 2026-10-05 160708" src="https://github.com/user-attachments/assets/4f805ad8-3120-4e2c-bc16-d7c87e0d0f9a" />
+
+Hence, making n<sup> s </sup> = X the maximum term of the function can be conjectured as 1/X. A big integer value of (n) to the power of (s) that produces 1/X = 0. This will be the last term in the sum. And this value is a point at infinity. Such value is referenced by the exponential function (EXP) oscillation, and is defined at around 10 <sup> 308 </sup>, because 1/10<sup> 308 </sup> = 0 for the majority of compilers (or 10<sup> -308 </sup>. And here we find the most  possible common error for the zeta function computation, because X depends on X(n, s), and the argument (s) assumes preciselly 1/2 as the real part, which will decrease the value of (n) until the region of its own square root, do not satifying the nontriviality of 1/X = 0,  because n<sup> 1/2+it </sup> -> sqrt(n).  To solve the problem is necessary to define X = 10<sup> 616 </sup>, that is the square of 10<sup>308</sup>, axpanding the domain of the function to the halfplane and then integring the whole domain, turning possible the computation of the hypothesis. Then,
+
+Lim 1/X (n, s = 1/2 + it),  n -> 10<sup> 616 </sup> 
+
+
+This limiar seens astronomicaly big, and the present complex analyses take the role to turn possible to compute until its "infinity" because X will reaches the region limit of the computation that is settled by <i>double</i> (IEE754) - which is 10<sup> 308 </sup>  in the exponential decrement/oscillation of (n) by (s). Here we begin the complex analyses to effectively define a compact serie for the zeta function at the Riemann sphere.  
+
+
+
+
+
+Back to the integral invariant of the Euler formula Xi, we see that (n) stay in the logarithm scale and (n) -> 10^616:
+
+e<sup> Z </sup> = e<sup> - s * ln(n) </sup>
+
+Considering the ring of integers n -> {1 to 10<sup> 616 </sup>} in the logarihtm scale we have a compact range from ln(n) -> {0 to 1417.88}. The linear progression of ln(n) turns possible to compute all terms of a divergent complex power serie as the zeta function. Resting just to simplify the function to the integral equivalence, in the zeta case: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
 
