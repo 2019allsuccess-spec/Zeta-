@@ -66,15 +66,66 @@ Lim 1/X (n, s = 1/2 + it),  n -> 10<sup> 616 </sup>
 
 This limiar seens astronomicaly big, and the present complex analyses take the role to turn possible to compute until its "infinity" because X will reaches the region limit of the computation that is settled by <i>double</i> (IEE754) - which is 10<sup> 308 </sup>  in the exponential decrement/oscillation of (n) by (s). Here we begin the complex analyses to effectively define a compact serie for the zeta function at the Riemann sphere.  
 
-
-
-
-
 Back to the integral invariant of the Euler formula Xi, we see that (n) stay in the logarithm scale and (n) -> 10^616:
 
 e<sup> Z </sup> = e<sup> - s * ln(n) </sup>
 
-Considering the ring of integers n -> {1 to 10<sup> 616 </sup>} in the logarihtm scale we have a compact range from ln(n) -> {0 to 1417.88}. The linear progression of ln(n) turns possible to compute all terms of a divergent complex power serie as the zeta function. Resting just to simplify the function to the integral equivalence, in the zeta case: 
+Considering the ring of integers n -> {1 to 10<sup> 616 </sup>} in the logarihtm scale we have a compact range ln(n) -> {0 to 1418,3924...}. The linear progression of ln(n) turns possible to compute all terms of a divergent complex power serie as the zeta function. Simplifying the function to the most compact equivalence, in the zeta case: 
+
+
+<img width="207" height="83" alt="Captura de tela 2026-10-05 180732" src="https://github.com/user-attachments/assets/f2b97d96-13e2-4be2-a5bd-cb1a84602625" />
+
+
+as well,
+
+<img width="181" height="77" alt="Captura de tela 2026-10-05 180824" src="https://github.com/user-attachments/assets/515a24df-44f6-4ab4-9c19-d1f155321e78" />
+
+
+
+In practice is possible to visualize the graphic linear progression of all terms of a complex function until the point at infinity. Is inferred that is also possible the summation of the whole of it, becauses they have the same magnitude. As proposed by Riemann in his complex analyses through the projective sphere. The integral complex analyses may guide the path to the computation infinite sums through the Riemann sphere. In this way, lets define the straight line P(z) at the Riemann sphere.
+
+Making X = log(n) , X being the measurement space (Lebesgue) of the terms,  n<sup> -s </sup> = e<sup> -sX </sup> gives the following undefined integral:
+
+
+<img width="298" height="86" alt="Captura de tela 2026-10-05 194239" src="https://github.com/user-attachments/assets/8e6fb7d7-66b8-44c8-a95a-c456f5ab3dfb" />
+
+
+Then we can define two segments or partitions of X, {X' + X"} = X,  creating two ranges for the sums:
+
+X' runs between 0 to 709,1962...            
+X" runs between 709,1962... to 1418,3924...  
+
+The integration of these two regions is given by:
+
+<img width="144" height="71" alt="Captura de tela 2026-10-05 204948" src="https://github.com/user-attachments/assets/e15e4e46-7a4f-45d6-93a7-a24752b2517b" />
+
+
+
+And then  the definite integral:
+
+<img width="229" height="68" alt="Captura de tela 2026-10-05 204845" src="https://github.com/user-attachments/assets/3fac3a9b-5828-428b-96ed-21e9f1de13c3" />
+
+
+
+Goes to:
+
+<img width="471" height="84" alt="Captura de tela 2026-10-05 204827" src="https://github.com/user-attachments/assets/20b08107-4343-4ce6-beee-d73018c54da9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
