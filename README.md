@@ -101,7 +101,7 @@ The integration of these two regions is given by:
 
 
 
-And then  the definite integral:
+And then  the definite integral,
 
 <img width="229" height="68" alt="Captura de tela 2026-10-05 204845" src="https://github.com/user-attachments/assets/3fac3a9b-5828-428b-96ed-21e9f1de13c3" />
 
