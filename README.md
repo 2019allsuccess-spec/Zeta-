@@ -43,7 +43,7 @@ e<sup> Z </sup> = e<sup> - s * ln(n) </sup>
 </p>
 
 
-At this point, to introduce the complex analyses through the Riemann sphere, attempting to avoid mistakes and computation errors on the behaviour of the zeta function, we have to give attention paticularly to the Riemann hyphotesis. This way, Riemann asserts that the roots (zeroes) of the zeta function are liying in a certain line, called critical line - which is a sucession of critical points defined by the function argument (s) that implies (in hyphotesis) in z(s)=0.
+<p>At this point, to introduce the complex analyses through the Riemann sphere, attempting to avoid mistakes and computation errors on the behaviour of the zeta function, we have to give attention paticularly to the Riemann hyphotesis. This way, Riemann asserts that the roots (zeroes) of the zeta function are liying in a certain line, called critical line - which is a sucession of critical points defined by the function argument (s) that implies (in hyphotesis) in z(s)=0.</p>
 
 However, the definition of these critical points is precisely given by:
 
@@ -53,52 +53,51 @@ However, the definition of these critical points is precisely given by:
 
 
 
-Riemann has conjectured that the possible function roots, or critical points (s), have real part equal to 1/2, and this make much more sense when computing Re(s)>1, because the function converges, which implies in z(s)->1 (the function tends to 1). Now, lets visualize the behaviour of the function at the superior limit (n->Inf), taking the reference of the infinit limits definition  1/Inf = 0. Also by opposition: 1/0 = Inf (division by zero was introduce by Riemann in his complex analyses, now we have the definition of the North (1/0 = Inf) and the South (1/Inf = 0) of the Riemann sphere. Bellow, we can see more clearly in practice the domain of the zeta function illustrated by the ninth term, and the argument settled in the subspace of the complex plane (half plane - Riemann hypothesis):
+<p>Riemann has conjectured that the possible function roots, or critical points (s), have real part equal to 1/2, and this make much more sense when computing Re(s)>1, because the function converges, which implies in z(s)->1 (the function tends to 1). Now, lets visualize the behaviour of the function at the superior limit (n->Inf), taking the reference of the infinit limits definition  1/Inf = 0. Also by opposition: 1/0 = Inf (division by zero was introduce by Riemann in his complex analyses, now we have the definition of the North (1/0 = Inf) and the South (1/Inf = 0) of the Riemann sphere. Bellow, we can see more clearly in practice the domain of the zeta function illustrated by the ninth term, and the argument settled in the subspace of the complex plane (half plane - Riemann hypothesis):</p>
 
 
 
 <img width="202" height="67" alt="Captura de tela 2026-10-05 160708" src="https://github.com/user-attachments/assets/4f805ad8-3120-4e2c-bc16-d7c87e0d0f9a" />
 
-Hence, making n<sup> s </sup> = X the maximum term of the function can be conjectured as 1/X. A big integer value of (n) to the power of (s) that produces 1/X = 0. This will be the last term in the sum. And this value is a point at infinity. Such value is referenced by the exponential function (EXP) oscillation, and is defined at around 10 <sup> 308 </sup>, because 1/10<sup> 308 </sup> = 0 for the majority of compilers (or 10<sup> -308 </sup>. And here we find the most  possible common error for the zeta function computation, because X depends on X(n, s), and the argument (s) assumes preciselly 1/2 as the real part, which will decrease the value of (n) until the region of its own square root, do not satifying the nontriviality of 1/X = 0,  because n<sup> 1/2+it </sup> -> sqrt(n).  To solve the problem is necessary to define X = 10<sup> 616 </sup>, that is the square of 10<sup>308</sup>, axpanding the domain of the function to the halfplane and then integring the whole domain, turning possible the computation of the hypothesis. Then,
+<p>Hence, making n<sup> s </sup> = X the maximum term of the function can be conjectured as 1/X. A big integer value of (n) to the power of (s) that produces 1/X = 0. This will be the last term in the sum. And this value is a point at infinity. Such value is referenced by the exponential function (EXP) oscillation, and is defined at around 10 <sup> 308 </sup>, because 1/10<sup> 308 </sup> = 0 for the majority of compilers (or 10<sup> -308 </sup>. And here we find the most  possible common error for the zeta function computation, because X depends on X(n, s), and the argument (s) assumes preciselly 1/2 as the real part, which will decrease the value of (n) until the region of its own square root, do not satifying the nontriviality of 1/X = 0,  because n<sup> 1/2+it </sup> -> sqrt(n).  To solve the problem is necessary to define X = 10<sup> 616 </sup>, that is the square of 10<sup>308</sup>, axpanding the domain of the function to the halfplane and then integring the whole domain, turning possible the computation of the hypothesis. </p> Then,
 
 Lim 1/X (n, s = 1/2 + it),  n -> 10<sup> 616 </sup> 
 
 
-This limiar seens astronomicaly big, and the present complex analyses take the role to turn possible to compute until its "infinity" because X will reaches the region limit of the computation that is settled by <i>double</i> (IEE754) - which is 10<sup> 308 </sup>  in the exponential decrement/oscillation of (n) by (s). Here we begin the complex analyses to effectively define a compact serie for the zeta function at the Riemann sphere.  
+<p>This limiar seens astronomicaly big, and the present complex analyses take the role to turn possible to compute until its "infinity" because X will reaches the region limit of the computation that is settled by <i>double</i> (IEE754) - which is 10<sup> 308 </sup>  in the exponential decrement/oscillation of (n) by (s). Here we begin the complex analyses to effectively define a compact serie for the zeta function at the Riemann sphere.  
 
-Back to the integral invariant of the Euler formula Xi, we see that (n) stay in the logarithm scale and (n) -> 10^616:
+Back to the integral invariant of the Euler formula Xi, we see that (n) stay in the logarithm scale and (n) -> 10^616: </p>
 
 e<sup> Z </sup> = e<sup> - s * ln(n) </sup>
 
-Considering the ring of integers n -> {1 to 10<sup> 616 </sup>} in the logarihtm scale we have a compact range ln(n) -> {0 to 1418,3924...}. The linear progression of ln(n) turns possible to compute all terms of a divergent complex power serie as the zeta function. Simplifying the function to the most compact equivalence, in the zeta case: 
+<p>Considering the ring of integers n -> {1 to 10<sup> 616 </sup>} in the logarihtm scale we have a compact range ln(n) -> {0 to 1418,3924...}. The linear progression of ln(n) turns possible to compute all terms of a divergent complex power serie as the zeta function. Simplifying the function to the most compact equivalence, in the zeta case: </p>
 
 
 <img width="207" height="83" alt="Captura de tela 2026-10-05 180732" src="https://github.com/user-attachments/assets/f2b97d96-13e2-4be2-a5bd-cb1a84602625" />
 
 
-as well,
+as well, 
 
 <img width="181" height="77" alt="Captura de tela 2026-10-05 180824" src="https://github.com/user-attachments/assets/515a24df-44f6-4ab4-9c19-d1f155321e78" />
 
 
 
-In practice is possible to visualize the graphic linear progression of all terms of a complex function until the point at infinity. Is inferred that is also possible the summation of the whole of it, becauses they have the same magnitude. As proposed by Riemann in his complex analyses through the projective sphere. The integral complex analyses may guide the path to the computation of infinite sums through the Riemann sphere simmetry. In this way, lets define the straight line P(z) = X at the Riemann sphere.
+<p>In practice is possible to visualize the graphic linear progression of all terms of a complex function until the point at infinity. Is inferred that is also possible the summation of the whole of it, becauses they have the same magnitude. As proposed by Riemann in his complex analyses through the projective sphere. The integral complex analyses may guide the path to the computation of infinite sums through the Riemann sphere. In this way, lets define the straight line P(z) = X at the Riemann sphere.
 
-Making X = log(n) , X being the measurement space (Lebesgue) of the terms,  n<sup> -s </sup> = e<sup> -sX </sup> gives the following undefinite integral:
+Making X = log(n) , X being the measurement space (Lebesgue) of the terms,  n<sup> -s </sup> = e<sup> -sX </sup> gives the following undefinite integral:</p>
 
 
 <img width="298" height="86" alt="Captura de tela 2026-10-05 194239" src="https://github.com/user-attachments/assets/8e6fb7d7-66b8-44c8-a95a-c456f5ab3dfb" />
 
 
-Then we can define two segments or partitions of X, {X' + X"} = X,  creating two ranges for the sums:
+<p>Then we can define two segments or partitions of X, {X' + X"} = X,  creating two ranges for the sums:
 
 X' runs between 0 to 709,1962...            
 X" runs between 709,1962... to 1418,3924...  
 
-The integration of these two regions is given by:
+The integration of these two regions is given by:</p>
 
-<img width="144" height="71" alt="Captura de tela 2026-10-05 204948" src="https://github.com/user-attachments/assets/e15e4e46-7a4f-45d6-93a7-a24752b2517b" />
-
+<img width="144" height="71" alt="Captura de tela 2026-10-05 204948" src="https://github.com/user-attachments/assets/5f204667-a331-483c-a684-a50091db5415" />
 
 
 And then the definite integral:
@@ -106,8 +105,8 @@ And then the definite integral:
 <img width="229" height="68" alt="Captura de tela 2026-10-05 204845" src="https://github.com/user-attachments/assets/3fac3a9b-5828-428b-96ed-21e9f1de13c3" />
 
 
-
 Goes to:
+
 
 <img width="471" height="84" alt="Captura de tela 2026-10-05 204827" src="https://github.com/user-attachments/assets/20b08107-4343-4ce6-beee-d73018c54da9" />
 
@@ -144,7 +143,7 @@ Goes to:
 
 
 
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+<script><id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
 
 
