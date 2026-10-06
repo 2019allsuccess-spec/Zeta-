@@ -82,9 +82,9 @@ as well,
 
 
 
-In practice is possible to visualize the graphic linear progression of all terms of a complex function until the point at infinity. Is inferred that is also possible the summation of the whole of it, becauses they have the same magnitude. As proposed by Riemann in his complex analyses through the projective sphere. The integral complex analyses may guide the path to the computation infinite sums through the Riemann sphere. In this way, lets define the straight line P(z) at the Riemann sphere.
+In practice is possible to visualize the graphic linear progression of all terms of a complex function until the point at infinity. Is inferred that is also possible the summation of the whole of it, becauses they have the same magnitude. As proposed by Riemann in his complex analyses through the projective sphere simmetry. The integral complex analyses may guide the path to the computation of infinite sums through the Riemann sphere. In this way, lets define the straight line P(z) = X at the Riemann sphere.
 
-Making X = log(n) , X being the measurement space (Lebesgue) of the terms,  n<sup> -s </sup> = e<sup> -sX </sup> gives the following undefined integral:
+Making X = log(n) , X being the measurement space (Lebesgue) of the terms,  n<sup> -s </sup> = e<sup> -sX </sup> gives the following undefinite integral:
 
 
 <img width="298" height="86" alt="Captura de tela 2026-10-05 194239" src="https://github.com/user-attachments/assets/8e6fb7d7-66b8-44c8-a95a-c456f5ab3dfb" />
@@ -101,7 +101,7 @@ The integration of these two regions is given by:
 
 
 
-And then  the definite integral:
+And then the definite integral:
 
 <img width="229" height="68" alt="Captura de tela 2026-10-05 204845" src="https://github.com/user-attachments/assets/3fac3a9b-5828-428b-96ed-21e9f1de13c3" />
 
