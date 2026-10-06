@@ -100,17 +100,17 @@ The integration of these two regions is given by:</p>
 <img width="144" height="71" alt="Captura de tela 2026-10-05 204948" src="https://github.com/user-attachments/assets/5f204667-a331-483c-a684-a50091db5415" />
 
 
+
 And then the definite integral:
 
 <img width="229" height="68" alt="Captura de tela 2026-10-05 204845" src="https://github.com/user-attachments/assets/3fac3a9b-5828-428b-96ed-21e9f1de13c3" />
+
 
 
 Goes to:
 
 
 <img width="471" height="84" alt="Captura de tela 2026-10-05 204827" src="https://github.com/user-attachments/assets/20b08107-4343-4ce6-beee-d73018c54da9" />
-
-
 
 
 
