@@ -99,6 +99,11 @@ The integration of these two regions is given by:</p>
 
 <img width="144" height="71" alt="Captura de tela 2026-10-05 204948" src="https://github.com/user-attachments/assets/5f204667-a331-483c-a684-a50091db5415" />
 
+Making s <=> z, P(z) = -zX' + -zX"
+
+
+<img width="1536" height="1024" alt="P(z) EN" src="https://github.com/user-attachments/assets/7355d26c-eb06-45a1-9fdb-7f4ba6beffc4" />
+
 
 
 And then the definite integral:
