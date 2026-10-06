@@ -102,7 +102,7 @@ The integration of these two regions is given by:</p>
 Making s <=> z, P(z) = -zX' + -zX"
 
 
-<img width="1536" height="1021" alt="P(z) EN" src="https://github.com/user-attachments/assets/3fb1cfaf-3ae1-42ff-97c1-34bb3cd35bbe" />
+<img width="768" height="510" alt="P(z) EN" src="https://github.com/user-attachments/assets/3fb1cfaf-3ae1-42ff-97c1-34bb3cd35bbe" />
 
 
 
