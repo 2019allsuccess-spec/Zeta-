@@ -77,18 +77,6 @@ call(Math.input Complex);
 
 }
 
-class Mode_Selector
-{
-
-Create NewCosoleWindow = Handle; 
-Create ModeSelectorButton (MsgBoxStyle  Mode_Selector); object value = WriteLine("Mode");
-ModeSelectorButton value1 = Real (MsgBoxResult = System.String ("In the real mode insert 'a' to define the real value of 's', while 'b' is set to zero, b = 0.")); 
-ModeSelectorButton value2  = Complex (MsgBoxResult = System.String ("In complex mode insert the coheficients 'a' and 'b' of the complex number."));
-User.interface_string[]  Args =  (a, b); call(Math.input Complex);
-CreateComputeButton(sum z); object value = ConsoleWriteLine("Compute");
-
-}
-
 class Math
 {
 
@@ -99,6 +87,17 @@ DoubleSquare_Scale eval = Log(); var n = "Integer"/ BigInteger <- "BigFloat"(log
 overwriteOutput FALSE;
 Object value = z(s) = (1/(exp(log(n)*s)));
 
- 
+}
+
+class Mode_Selector
+{
+
+Create NewCosoleWindow = Handle; 
+Create ModeSelectorButton (MsgBoxStyle  Mode_Selector); object value = WriteLine("Mode");
+ModeSelector Button = "value1" = Real (MsgBoxResult = System.String ("In the real mode insert 'a' to define the real value of 's', while 'b' is set to zero, b = 0.")); ConsoleWriteline(Real mode);
+ModeSelector Button = "value2" = Complex (MsgBoxResult = System.String ("In complex mode insert the coheficients 'a' and 'b' of the complex number.")); ConsoleWriteline(Complex mode);
+User.interface_string[]  Args = (a, b); call(Math.input Real); call(Math.input Complex);
+CreateComputeButton(sum z); object value = ConsoleWriteLine("Compute");
+
 }
 
