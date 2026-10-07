@@ -2,6 +2,8 @@ using System.Reflection.Metadata;
 using Microsoft.VisualBasic;
 using System.Runtime;
 using System.Numerics;
+using System.IO.Compression;
+using System.Data;
 using System include = flint-3.6;0.tar;
 
 class Program
@@ -9,7 +11,8 @@ class Program
 {
     static void Main(String[] Args)
     
-{//L-function power serie
+{
+//L-function power serie
 var n = seq(1, ~10^616);
 Math.log(n);
 zeta_function <- z(s); 
@@ -48,4 +51,101 @@ end;
 
 }
 }
+}
+namespace Name;
+   
+
+internal class Program
+ 
+{
+     private static void Main(String[] Args)
+     
+    {
+     SystemConsoleWriteLine("zeta_function");        
+    }
+
+}
+
+class AppDomain
+{
+Complex.AppDomain
+ConsoleWriteLine(Complex mode);
+new Complex();
+overwrite  TRUE;
+Math.input Complex;
+call(Math.input Complex);
+
+}
+
+class Mode_Selector
+{Create NewCosoleWindow = Handle; 
+Create ModeSelectorButton (MsgBoxStyle  Mode_Selector); object value = WriteLine("Mode");
+ModeSelectorButton value1 = Real (MsgBoxResult = System.String ("In the real mode insert 'a' to define the real value of 's', while 'b' is set to zero, b = 0.")); 
+ModeSelectorButton value2  = Complex (MsgBoxResult = System.String ("In complex mode insert the coheficients 'a' and 'b' of the complex number."));
+User.interface_string[]  Args =  (a, b); call(Math.input Complex);
+CreateComputeButton(sum z); object value = ConsoleWriteLine("Compute");
+
+}
+
+class Math
+{
+System.Runtime.Numerics.BigInteger Runtime(MethodDefinition  DoubleSquare_Scale = Math.Log(n)); 
+BigInteger limit = BigInteger.pow(10, 616);
+Math.limit n = Seq(n = 1, BigInteger = BigInteger.power(10, 616));
+DoubleSquare_Scale eval = Log(); var n = "Integer"/ BigInteger <- "BigFloat"(log(n));
+overwriteOutput FALSE;
+Object value = z(s) = (1/(exp(log(n)*s)));
+public FALSE Z { get => z; set => z = value;}
+new Complex();
+Stop TRUE; 
+}
+
+namespace Name;
+   
+
+internal class Program
+ 
+{
+     private static void Main(String[] Args)
+     
+    {
+     SystemConsoleWriteLine("zeta_function");        
+    }
+
+}
+class AppDomain
+
+{
+Complex.AppDomain
+ConsoleWriteLine(Complex mode);
+new Complex();
+overwrite  TRUE;
+Math.input Complex;
+call(Math.input Complex);
+
+
+}
+
+class Mode_Selector
+{Create NewCosoleWindow = Handle; 
+Create ModeSelectorButton (MsgBoxStyle  Mode_Selector); object value = WriteLine("Mode");
+ModeSelectorButton value1 = Real (MsgBoxResult = System.String ("In the real mode insert 'a' to define the real value of 's', while 'b' is set to zero, b = 0.")); 
+ModeSelectorButton value2  = Complex (MsgBoxResult = System.String ("In complex mode insert the coheficients 'a' and 'b' of the complex number."));
+User.interface_string[]  Args =  (a, b); call(Math.input Complex);
+CreateComputeButton(sum z); object Value = ConsoleWriteLine("Compute");
+
+}
+
+class Math
+{
+System.Runtime.Numerics.BigInteger Runtime(MethodDefinition  DoubleSquare_Scale = Math.Log(n)); 
+BigInteger limit = BigInteger.pow(10, 616);
+Math.limit n = Seq(n = 1, BigInteger = BigInteger.power(10, 616));
+DoubleSquare_Scale  eval = Log(); var n = "Integer"/ BigInteger <- "BigFloat"(log(n));
+overwriteOutput FALSE;
+Object value = z(s) = (1/(exp(log(n)*s)));
+
+public FALSE Z { get => z; set => z = value;}
+Stop TRUE; 
+
 }
