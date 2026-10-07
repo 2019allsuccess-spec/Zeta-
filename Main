@@ -92,7 +92,7 @@ Object value = z(s) = (1/(exp(log(n)*s)));
 
 }
 
-class Mode_Selector
+internal class Mode_Selector
 {
 
 Create NewCosoleWindow = Handle; 
