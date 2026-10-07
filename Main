@@ -145,7 +145,6 @@ DoubleSquare_Scale  eval = Log(); var n = "Integer"/ BigInteger <- "BigFloat"(lo
 overwriteOutput FALSE;
 Object value = z(s) = (1/(exp(log(n)*s)));
 
-public FALSE Z { get => z; set => z = value;}
 Stop TRUE; 
 
 }
