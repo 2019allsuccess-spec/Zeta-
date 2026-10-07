@@ -1,0 +1,51 @@
+using System.Reflection.Metadata;
+using Microsoft.VisualBasic;
+using System.Runtime;
+using System.Numerics;
+using System include = flint-3.6;0.tar;
+
+class Program
+
+{
+    static void Main(String[] Args)
+    
+{//L-function power serie
+var n = seq(1, ~10^616);
+Math.log(n);
+zeta_function <- z(s); 
+z(s) = (1/(exp(log(n)*Complex(a, b))));
+sum(z(s)); n++;
+{
+function(x, type = c("O", "I", "F", "M", "2"));
+ 
+{
+    if (identical("2", type))
+    {
+        svd(x, nu = 0L, nv = 0L)%d[1L];
+    }
+    else Internal(La_dlange(x, type));
+}
+{
+{}
+
+//Sigma notation -> Function image
+zeta<-"sum(z)";
+overwrite = TRUE;
+consoleOutput = TRUE;
+{
+call(zeta<- "sum(z)"); n++;
+}
+}
+}
+
+}
+private static void Main(string[] args)
+{
+{}
+
+{
+end;
+
+}
+}
+}
