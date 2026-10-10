@@ -4,7 +4,7 @@ using System.Runtime;
 using System.Numerics;
 using System.IO.Compression;
 using System.Data;
-using System include = flint-3.6;0.tar;
+
 
 class Program
 
@@ -62,7 +62,7 @@ internal class Program
      private static void Main(String[] Args)
      
      {
-     SystemConsoleWriteLine("zeta_function");        
+     ConsoleWriteLine("zeta_function");        
      }
 
 }
